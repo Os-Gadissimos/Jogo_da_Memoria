@@ -1,0 +1,23 @@
+package jogo_da_memoria;
+
+public class Carta {
+
+    private String tamanho;
+    private boolean revelada;
+    private String figura;
+    private int posição;
+
+    public String getTamanho() {
+        return tamanho;
+    }
+
+    public boolean isRevelada() {
+        return revelada;
+    }
+
+    public String getFigura() {
+
+        return figura;
+    }
+
+}
